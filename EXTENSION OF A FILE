@@ -1,0 +1,13 @@
+a=input("Input of the filename:")
+b=a.find("py")
+if b>=0:
+    print("\nThe extension of the file is : python")
+c=a.find("ppt")
+if c>=0:
+    print("\nThe extension of the file is : powerpoint")
+d=a.find("xlsx")    
+if d>=0:
+    print("\nThe extension of the file is : excel")
+e=a.find("docs")    
+if e>=0:
+    print("\nThe extension of the file is : word")
